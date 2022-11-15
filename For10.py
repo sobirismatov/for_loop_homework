@@ -6,4 +6,8 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    ism=[]
+    for i in list1:
+        ism.append(i.title())
+    return ism
+print(main(["husan ","alisher","asadbek", "sanjar"]))
