@@ -10,4 +10,4 @@ def main(n):
     for i in range(n):
         a.append(i)
     return a
-print(main(4))
+print(main(5))
