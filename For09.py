@@ -5,5 +5,9 @@ def main(price):
         price: int
     Returns:
         list: return  answer
-    """
-    return
+    """ 
+    b=[]
+    for i in range(1,price):
+        b+=[i*2.25]
+    return b
+print(main(4))
