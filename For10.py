@@ -8,6 +8,6 @@ def main(list1):
     """
     ism=[]
     for i in list1:
-        ism.append(i.title())
+        ism.append(i.capitalize())
     return ism
 print(main(["husan ","alisher","asadbek", "sanjar"]))
